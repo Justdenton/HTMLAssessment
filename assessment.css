@@ -2,7 +2,7 @@
 /* 	Story 1 - Your headers should be changed to your favorite color and set to a sans-serif font. 
 	(Notice they are not all the same tag!) */
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
 	color: blue;
 	font-family: 'sans-serif';
 }
@@ -42,7 +42,7 @@ a:hover {
 
 /* 	Story 5 - Set the background color of the block quote text (second paragraph) to a dark color 
 	and the font color to a contrasting light color. */
-blockquote p {
+blockquote {
 	background-color: darkorange;
 	color: lightgreen;
 }
@@ -51,14 +51,35 @@ blockquote p {
 /*	Story 6 - Make each team's image the background image for the list.
 	Hint - Check out the element > element and :first-child / :last-child selectors. 
 	Remove the image from above the team's list. */
-#teamRoster > li {
-	background background-size: 50px 50px;
+
+
+/* 	Remove img */ 
+#teamRoster li img {
+	display: none;
+}
+
+/* First child (Broncos) */
+#teamRoster > li:first-child {
+	background: url('https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg');
+	height: 200px;
+	width: 200px;
 	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 
+/* Last child (Bears) */ 
+#teamRoster > li:last-child {
+	background: url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg');
+	height: 200px;
+	width: 200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+} 
+
+
 /*	Story 7 - The checkbox list should not be bulleted. */
-.checkbox-grid li{
+#checkbox-grid li{
 	list-style-type: none;
 }
 
