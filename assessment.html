@@ -1,203 +1,227 @@
 <!DOCTYPE html>
 <html>
-<head>
 
+<!-- Head -->
+<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<!-- Title -->
 	<title>HTML Assessment</title>
-
 </head>
 
+<!-- Body -->
 <body>
 
-	<!-- TEXT SECTION (first word in each paragraph should be bold. -->
+	<!-- TEXT SECTION -->
+	<!-- First word in each paragraph - bold. -->
+
 	<h2>TEXT</h2>
-
 	<!-- First paragraph -->
-	<p><strong>This</strong>
-	is the first paragraph.
-	</p>
+	<p><strong>This</strong> is the first paragraph.</p>
 	
-	<!-- Second paragraph -->
-	<blockquote><p><em><strong>This</strong>
-	is the second paragraph. Block quotation and emphasized.
-	</em></p></blockquote>
+	<!-- Second paragraph - Block quotation & emphasized. -->
+	<blockquote>
+		<p><em><strong>This</strong> is the second paragraph. Block quotation and emphasized.</em></p>
+	</blockquote>
 	
-	<!-- Third paragraph -->
-	<p><strong>This</strong>
-	is the third paragraph.
-	</p>
+	<!-- First paragraph -->
+	<p><strong>This</strong> is the third paragraph.</p>
 
-	<!-- TABLE SECTION (data to simulate game score - using colspan and rowspan attributes-->
-	
-	<!-- HTML border - DON'T USE; will use CSS in the future.
-
+	<!-- TABLE SECTION -->
+	<!-- colspan & rowspan attributes. -->
+	<!-- Header, footer, caption. -->
+	<!-- Don't worry about formatting yet - will cover this week. -->
 	<h2>TABLE</h2>
-
-	<!-  Table needs: header, footer, caption -->
-
 	<table>
-
-		<tr>
-		
-		</tr>
-
+		<!-- Caption -->
+		<caption>USA vs. South Sudan (July 20, 2024)</caption>
+		<!-- Header -->
 		<thead>
 			<tr>
-		  	  <th rowspan="2">Team Name</th>
-    	  	  <th colspan="2">First Half</th>
-    	  	  <th colspan="2">Second Half</th>	
+				<th rowspan="2">Team Name</th>
+				<th colspan="2">First Half</th>
+				<th colspan="2">Second Half</th>
+				<th rowspan="2">Final</th>
 			</tr>
-		</thead>	
-
-
-		<tr>
-			<td>Q1</td>
-			<td>Q2</td>	
-			<td>Q3</td>	
-			<td>Q4</td>	
-			<td>Final</td>		
-		</tr>
-
+			<tr>
+				<th>Q1</th>
+				<th>Q2</th>
+				<th>Q3</th>
+				<th>Q4</th>
+			</tr>
+		</thead>
 		<tbody>
-		<!-- USA (row) -->
-		<tr>
-			<td>USA</td>
-			<td>24</td>
-			<td>20</td>
-			<td>37</td>
-			<td>20</td>
-			<td>101</td>	
-		</tr>
-
-		<!-- South Sudan (row) -->
-		<tr>
-			<td>South Sudan</td>
-			<td>26</td>
-			<td>32</td>
-			<td>18</td>
-			<td>25</td>
-			<td>100</td>
-		</tr>
-
+			<tr>
+				<td>
+					<a href="https://en.wikipedia.org/wiki/United_States_men%27s_national_basketball_team">USA</a>
+				</td>
+				<td>24</td>
+				<td>20</td>
+				<td>37</td>
+				<td>20</td>
+				<td>101</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://en.wikipedia.org/wiki/South_Sudan_men%27s_national_basketball_team">South Sudan</a>
+				</td>
+				<td>26</td>
+				<td>32</td>
+				<td>18</td>
+				<td>24</td>
+				<td>100</td>
+			</tr>
 		</tbody>
-
+		<!-- Footer -->
 		<tfoot>
-		  <td>Total</td>
-		  <td>50</td>
-		  <td>52</td>
-		  <td>55</td>
-		  <td>45</td>
+			<tr>
+				<td><strong>Total</strong></td>
+				<td><strong>50</strong></td>
+				<td><strong>52</strong></td>
+				<td><strong>55</strong></td>
+				<td><strong>44</strong></td>
+				<td><strong>202</strong></td>
+			</tr>
 		</tfoot>
-
 	</table>
 
+	<!-- LIST SECTION -->
 	<!-- https://en.wikipedia.org/wiki/United_States_men%27s_national_basketball_team -->
+	<!-- https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/USA_Basketball_logo.svg/370px-USA_Basketball_logo.svg.png -->
+
 	<!-- https://en.wikipedia.org/wiki/South_Sudan_men%27s_national_basketball_team -->
+	<!-- https://upload.wikimedia.org/wikipedia/en/8/8f/SSBF_logo.png -->
 
-	 <!-- LIST SECTION ----------------------------------------------------->
 	<h2>LIST</h2>
-
-	<!-- Team USA -->
 	<ul>
-	  <li>
-	    <img
-      	  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/USA_Basketball_logo.svg/370px-USA_Basketball_logo.svg.png"
-      	  alt="USA Basketball"
-      	  width="50"
-      	  height="50"
-    	/>
-	  </li>
-	  <li>USA</li>
-	  <li>Head Coach: Steve Kerr</li>
-	  <li>Assistant Coach</li>
-	    <ol>
-	    	<li>Mark Few</li>
-	    	<li>Tyronn Lue</li>
-	    	<li>Erik Spoelstra</li>
-	    </ol>
+		<li>
+			<a href="https://en.wikipedia.org/wiki/United_States_men%27s_national_basketball_team">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/USA_Basketball_logo.svg/370px-USA_Basketball_logo.svg.png" alt="USA Basketball" width="50" height="50"> USA
+			</a>
+		</li>
+		<ul>
+			<li>Head Coach: Steve Kerr</li>
+			<li>Assistant Coaches</li>
+			<ol>
+				<li>Mark Few</li>
+				<li>Tyronn Lue</li>
+				<li>Erik Spoelstra</li>
+			</ol>
+			<li>Center</li>
+			<ol>
+				<li>Bam Adebayo</li>
+				<li>Anthony Davis</li>
+				<li>Joel Embiid</li>
+			</ol>
+			<li>Guard</li>
+			<ol>
+				<li>Devin Booker</li>
+				<li>Stephen Curry</li>
+				<li>Anthony Edwards</li>
+				<li>Tyrese Haliburton</li>
+				<li>Jrue Holiday</li>
+				<li>Derrick White</li>
+			</ol>
+			<li>Forward</li>
+			<ol>
+				<li>Kevin Durant</li>
+				<li>LeBron James</li>
+				<li>Jayson Tatum</li>
+			</ol>
+		</ul>
 
-	  <li>Center</li>
-	    <ol>
-	    	<li>Bam Adebayo</li>
-	    	<li>Anthony Davis</li>
-	    	<li>Joel Embiid</li>
-	    </ol>  
-
-	  <li>Guard</li>
-	    <ol>
-	    	<li>Devin Booker</li>
-	    	<li>Stephen Curry</li>
-	    	<li>Anthony Edwards</li>
-	    	<li>Tyrese Haliburton</li>
-	    	<li>Jrue Holiday</li>
-	    	<li>Derrick White</li>
-	    </ol>
-
-	  <li>Forward</li>
-	    <ol>
-	    	<li>Kevin Durant</li>
-	    	<li>LeBron James</li>
-	    	<li>Jayson Tatum</li>
-	    </ol>
-
-	    <!-- Team South Sudan -->
-	  <li>
-	    <img
-      	  src="https://upload.wikimedia.org/wikipedia/en/8/8f/SSBF_logo.png"
-      	  alt="South Sudan Basketball"
-      	  width="50"
-      	  height="50"
-    	/>
-	  </li>
-	  <li>South Sudan</li>
-	  <li>Head Coach: Royal Ivey</li>
-	  <li>Assistant Coach</li>
-	    <ol>
-	    	<li>Luol Deng</li>
-	    	<li>Ajou Deng</li>
-	    	<li>Dzaflo Larkai</li>
-	    	<li>Joseph Mantegna</li>
-	    	<li>Fortune Solomon</li>
-	    </ol>
-
-	  <li>Center</li>
-	    <ol>
-	    	<li>Khaman Maluach</li>
-	    </ol>  
-
-	  <li>Guard</li>
-	    <ol>
-	    	<li>Carlik Jones</li>
-	    	<li>Bul Kuol</li>
-	    	<li>Marial Shayok</li>
-	    	<li>Jackson Makio</li>
-	    	<li>Peter Jok</li>
-	    	<li>Sunday Dech</li>
-	    </ol>
-
-	  <li>Forward</li>
-	    <ol>
-	    	<li>Nuni Omot</li>
-	    	<li>Kuany Kuany</li>
-	    	<li>Wenyen Gabriel</li>
-	    	<li>JT Thor</li>
-	    	<li>Majok Deng</li>
-	    </ol>
-
+		<li>
+			<a href="https://en.wikipedia.org/wiki/South_Sudan_men%27s_national_basketball_team">
+				<img src="https://upload.wikimedia.org/wikipedia/en/8/8f/SSBF_logo.png" alt="South Sudan Basketball" width="50" height="50"> South Sudan
+			</a>
+		</li>
+		<ul>
+			<li>Head Coach: Royal Ivey</li>
+			<li>Assistant Coaches</li>
+			<ol>
+				<li>Luol Deng</li>
+				<li>Ajou Deng</li>
+				<li>Dzaflo Larkai</li>
+				<li>Joseph Mantegna</li>
+				<li>Fortune Solomon</li>
+			</ol>
+			<li>Center</li>
+			<ol>
+				<li>Khaman Maluach</li>
+			</ol>
+			<li>Guard</li>
+			<ol>
+				<li>Carlik Jones</li>
+				<li>Bul Kuol</li>
+				<li>Marial Shayok</li>
+				<li>Jackson Makio</li>
+				<li>Peter Jok</li>
+				<li>Sunday Dech</li>
+			</ol>
+			<li>Forward</li>
+			<ol>
+				<li>Nuni Omot</li>
+				<li>Kuany Kuany</li>
+				<li>Wenyen Gabriel</li>
+				<li>JT Thor</li>
+				<li>Majok Deng</li>
+			</ol>
+		</ul>
 	</ul>
 
-	<!-- FORM SECTION ----------------------------------------------------->
+	<!-- FORM SECTION -->
 	<!-- Form input text fields for first name and last name. -->
 	<!-- Drop-down options list that allows the user to select their favorite sport from a predefined list. -->
 	<!-- Checkboxes indicating whether they have ever personally played/attended/coached/bet on this sport. -->
 	<!-- Radio button group indicating whether they prefer the amateur, college, or professional version. -->
 	<!-- Submit button.-->
-	<!-- Use br tags for basic formatting.-->
+	<!-- Use br tags for basic formatting.-->	
 
 	<h2>FORM</h2>
+
+	<form>
+		<label for="firstname">First Name:</label><br>
+		<input type="text" id="firstname" name="firstname"><br>
+		<label for="lastname">Last Name:</label><br>
+		<input type="text" id="lastname" name="lastname"><br>
+		
+		<label for="favsport">Favorite Sport:</label><br>
+		<select id="favsport" name="favsport">
+			<option value="basketball">Basketball</option>
+			<option value="football">Football</option>
+			<option value="soccer">Soccer</option>
+			<option value="baseball">Baseball</option>
+		</select><br>
+		
+		<label><strong>I have</strong></label>
+		<input type="checkbox" id="played" name="activity" value="played">
+		
+		<label for="played">Played</label>
+		<input type="checkbox" id="attended" name="activity" value="attended">
+		
+		<label for="attended">Attended</label>
+		<input type="checkbox" id="coached" name="activity" value="coached">
+		
+		<label for="coached">Coached</label>
+		<input type="checkbox" id="bet" name="activity" value="bet">
+		
+		<label for="bet">Bet</label>
+		<label><strong>on this sport.</strong></label><br>
+		
+		
+		<label>For this sport, I prefer:</label><br>
+		<input type="radio" id="amateur" name="preference" value="amateur">
+		
+		<label for="amateur">Amateur</label><br>
+		<input type="radio" id="college" name="preference" value="college">
+		
+		<label for="college">College</label><br>
+		<input type="radio" id="professional" name="preference" value="professional">
+		
+		<label for="professional">Professional</label><br>
+		
+		<input type="submit" value="Submit">
+
+	</form>
 
 </body>
 
